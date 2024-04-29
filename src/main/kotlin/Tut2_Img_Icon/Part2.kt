@@ -29,9 +29,9 @@ import java.io.IOException
 import java.net.URL
 
 
-
-// Tutorial 2 PARTE 2
-
+/**
+ * Loading images from device storage or network asynchronously
+ */
 
 fun main() = singleWindowApplication {
     val density = LocalDensity.current
